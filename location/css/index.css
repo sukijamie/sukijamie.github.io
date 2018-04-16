@@ -107,9 +107,10 @@ nav.navbar {
 .page {
     background: linear-gradient(#ffffff, rgb(235, 235, 235));
     width: 86.3%;
-    height: auto;
+    height: 100vh;
     position: relative;
     left: 200px;
+    overflow-y: hidden;
 }
 
 .top_bar {
