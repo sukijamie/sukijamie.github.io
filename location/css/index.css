@@ -140,6 +140,22 @@ nav.navbar {
     margin-right: 15px;
 }
 
+.side-navbar-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+
+    width: 80%;
+
+    -moz-transition: opacity 0.7s ease-in-out;
+    -webkit-transition: opacity 0.7s ease-in-out;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.side-navbar-logo#logo-white:hover{
+    opacity: 0;
+}
+
 .svg-inline--fa {
     margin-right: 15px;
 }
