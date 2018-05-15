@@ -38,61 +38,30 @@
       <div class="main-menu">
         <ul id="side-main-menu" class="side-menu list-unstyled">
           <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/homepage.png';">
-              <i class="fas fa-home fa-fw"></i>首頁</a>
+            <a href="index.html">
+              <i class="fas fa-home fa-fw"></i>首頁 </a>
           </li>
           <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/hotspot.png';">
-              <i class="fas fa-street-view fa-fw"></i>場域熱點分析</a>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/construction.png';">
+              <i class="far fa-chart-bar fa-fw"></i>使用情形分析</a>
           </li>
           <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/activity1.png';">
-              <i class="fab fa-connectdevelop fa-fw"></i>住民活動軌跡</a>
+            <!-- <a href="#" onclick="document.getElementById('display-frame').src = './img/construction.png';"> -->
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/20180416.png';">
+              <i class="fas fa-street-view fa-fw"></i>住民活動紀錄</a>
           </li>
           <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/activity2.png';">
-              <i class="fab fa-connectdevelop fa-fw"></i>住民活動統計</a>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/construction.png';">
+              <i class="fas fa-address-book fa-fw"></i>點名紀錄</a>
           </li>
           <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/rollCall1.png';">
-              <i class="fas fa-clipboard-check fa-fw"></i>活動課程點名</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/rollCall2.png';">
-              <i class="fas fa-clipboard-check fa-fw"></i>出入房點名</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/history.png';">
-              <i class="fas fa-clock fa-fw"></i>歷史事件</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/alert1.png';">
-              <i class="fas fa-exclamation-circle fa-fw"></i>電子圍籬設定</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/alert2.png';">
-              <i class="fas fa-exclamation-circle fa-fw"></i>警示事件設定</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/visitRecord.png';">
-              <i class="fas fa-clipboard-list fa-fw"></i>訪視紀錄</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis1.png';">
-              <i class="fas fa-chart-bar fa-fw"></i>行動能力分析</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis2.png';">
-              <i class="fas fa-chart-bar fa-fw"></i>生活交際分析</a>
-          </li>
-          <li>
-            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis3.png';">
-              <i class="fas fa-chart-bar fa-fw"></i>失智行走預警</a>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/construction.png';">
+              <i class="fas fa-exclamation-triangle fa-fw"></i>警報設定</a>
           </li>
         </ul>
       </div>
-      <img id="logo-color" class="side-navbar-logo" src="./img/Acare_LOGO_text_color.png">
-      <img id="logo-white" class="side-navbar-logo" src="./img/Acare_LOGO_text_white.png">
+      <img id="logo-color" class="side-navbar-logo" src="./img/Acare_LOGO_color.png">
+      <img id="logo-white" class="side-navbar-logo" src="./img/Acare_LOGO_white.png">
     </div>
   </nav>
   <div class="page">
@@ -169,10 +138,10 @@
       </nav>
     </header>
     <!-- 顯示區塊-->
-    <!-- <div style="transform-origin:20px 20px; width:80%; height: 80%;"> -->
-    <img id="display-frame" src="./img/fake/homepage.png" style="margin-left: 10px;margin-top: 10px;max-height: 80%; max-width:80%"></img>
-    <!-- </div> -->
-
+    <div style="transform: scale(0.8); transform-origin:20px 20px; width:100%; height: 700px;">
+      <iframe id="display-frame" src="http://172.16.10.99:8080/ltc-backend-webapi/rtlsMonitor" frameborder="0" scrolling="no" style="width:100%; height: 100%;"></iframe>
+    </div>
+    
 
     <!--
     <div class="agent-status">人員狀態
@@ -225,7 +194,7 @@
 
 
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </div>
 </body>
 

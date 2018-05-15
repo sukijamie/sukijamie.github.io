@@ -1,261 +1,262 @@
 * {
-    font-family: '微軟正黑體';
+  font-family: '微軟正黑體';
 }
 
 ul {
-    /* 取消ul預設的內縮及樣式 */
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  /* 取消ul預設的內縮及樣式 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul.drop-down-menu {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 18px;
-    /* something */
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+  /* something */
 }
 
 ul.drop-down-menu li {
-    position: relative;
+  position: relative;
 }
 
 ul.drop-down-menu>li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 ul.drop-down-menu>li {
-    float: left;
-    /* 只有第一層是靠左對齊*/
+  float: left;
+  /* 只有第一層是靠左對齊*/
 }
 
 ul.drop-down-menu a {
-    display: block;
-    padding: 0 30px;
-    text-decoration: none;
-    line-height: 40px;
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 40px;
 }
 
 ul.drop-down-menu a:hover {
-    /* 滑鼠滑入按鈕變色*/
-    background-color: #60A3CF;
-    color: #fff;
+  /* 滑鼠滑入按鈕變色*/
+  background-color: #60A3CF;
+  color: #fff;
 }
 
 ul.drop-down-menu li:hover>a {
-    /* 滑鼠移入次選單上層按鈕保持變色*/
-    background-color: rgb(126, 186, 226);
-    border-radius: 4px;
-    color: #fff;
+  /* 滑鼠移入次選單上層按鈕保持變色*/
+  background-color: rgb(126, 186, 226);
+  border-radius: 4px;
+  color: #fff;
 }
 
 ul.drop-down-menu ul {
-    border: #ccc 1px solid;
-    position: absolute;
-    z-index: 99;
-    left: -1px;
-    top: 100%;
-    min-width: 180px;
-    background-color: #5B8ACD;
+  border: #ccc 1px solid;
+  position: absolute;
+  z-index: 99;
+  left: -1px;
+  top: 100%;
+  min-width: 180px;
+  background-color: #5B8ACD;
 }
 
 ul.drop-down-menu ul li {
-    border-bottom: #ccc 1px solid;
+  border-bottom: #ccc 1px solid;
 }
 
 ul.drop-down-menu ul li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 ul.drop-down-menu ul ul {
-    /*第三層以後的選單出現位置與第二層不同*/
-    z-index: 999;
-    top: 10px;
-    left: 90%;
+  /*第三層以後的選單出現位置與第二層不同*/
+  z-index: 999;
+  top: 10px;
+  left: 90%;
 }
 
 ul.drop-down-menu ul {
-    /*隱藏次選單*/
-    display: none;
+  /*隱藏次選單*/
+  display: none;
 }
 
 ul.drop-down-menu li:hover>ul {
-    /* 滑鼠滑入展開次選單*/
-    display: block;
+  /* 滑鼠滑入展開次選單*/
+  display: block;
 }
 
 .sidenav-header {
-    color: #8DDEFF;
+  color: #8DDEFF;
 }
 
 nav.navbar {
-    background: linear-gradient(#60A3CF, #5B8ACD);
-    box-shadow: 0px 2px 4px rgba(0%, 0%, 0%, 0.35);
+  background: linear-gradient(#60A3CF, #5B8ACD);
+  box-shadow: 0px 2px 4px rgba(0%, 0%, 0%, 0.35);
 }
 
 .side-navbar {
-    background: linear-gradient(#4A4C66, #242536);
-    box-shadow: 0px 2px 4px rgba(0%, 0%, 0%, 0.8);
+  background: linear-gradient(#4A4C66, #242536);
+  box-shadow: 0px 2px 4px rgba(0%, 0%, 0%, 0.8);
 }
 
 .side-navbar .sidenav-header {
-    background: none;
-    margin: 0px;
-    padding-bottom: 24px;
+  background: none;
+  margin: 0px;
+  padding-bottom: 6px;
 }
 
 .container-fluid {
-    padding-left: 28px;
-    padding-right: 0rem;
+  padding-left: 28px;
+  padding-right: 0rem;
 }
 
 .page {
-    background: linear-gradient(#ffffff, rgb(235, 235, 235));
-    width: 86.3%;
-    height: 100vh;
-    position: relative;
-    left: 200px;
-    overflow-y: hidden;
+  background: linear-gradient(#ffffff, rgb(235, 235, 235));
+  width: 86.3%;
+  height: 100vh;
+  position: relative;
+  left: 200px;
+  overflow-y: hidden;
 }
 
 .top_bar {
-    width: 180px;
-    height: 200px;
-    background-color: white;
-    opacity: 0.5;
-    box-shadow: 0px 2px 6px rgba(0%, 0%, 0%, 0.8);
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px;
-    position: absolute;
+  width: 180px;
+  height: 200px;
+  background-color: white;
+  opacity: 0.5;
+  box-shadow: 0px 2px 6px rgba(0%, 0%, 0%, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
 }
 
 .side-navbar li a {
-    font-size: 16px;
+  font-size: 16px;
+  padding: 5px 12px;
 }
 
 .side-navbar li a:hover {
-    background: linear-gradient(#2F2F4A, #151524);
-    color: #8DDEFF;
-    border-left: 4px solid #8DDEFF;
+  background: linear-gradient(#2F2F4A, #151524);
+  color: #8DDEFF;
+  border-left: 4px solid #8DDEFF;
 }
 
 .side-navbar i {
-    transition: 0s;
-    margin-right: 15px;
+  transition: 0s;
+  margin-right: 15px;
 }
 
 .side-navbar-logo {
-    position: absolute;
-    bottom: 20px;
-    left: 10%;
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
 
-    width: 80%;
+  width: 50%;
 
-    -moz-transition: opacity 0.7s ease-in-out;
-    -webkit-transition: opacity 0.7s ease-in-out;
-    transition: opacity 0.7s ease-in-out;
+  -moz-transition: opacity 0.7s ease-in-out;
+  -webkit-transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
 }
 
-.side-navbar-logo#logo-white:hover{
-    opacity: 0;
+.side-navbar-logo#logo-white:hover {
+  opacity: 0;
 }
 
 .svg-inline--fa {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 nav.navbar a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 nav.navbar .logout {
-    position: absolute;
-    right: 6.5%;
+  position: absolute;
+  right: 6.5%;
 }
 
 .circle {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #fff;
-    margin-right: 20px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 20px;
 }
 
 .inner {
-    background-image: url(/img/avatar-1.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    border-radius: 50%;
+  background-image: url(/img/avatar-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .edit-circle {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: #fff;
-    margin-left: 265px;
-    margin-top: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  margin-left: 265px;
+  margin-top: 15px;
 }
 
 .edit-inner {
-    background-image: url(/img/avatar-2.svg);
-    background-size: cover;
-    background-position: center center;
-    height: 100%;
-    border-radius: 50%;
+  background-image: url(/img/avatar-2.svg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  border-radius: 50%;
 }
 
 nav.navbar .navbar-holder {
-    width: 80%;
+  width: 80%;
 }
 
 .location-title {
-    color: #2196F3;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 21px;
+  color: #2196F3;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 21px;
 }
 
 .agent-status {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    margin-right: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(126, 126, 126, 0.8);
-    position: absolute;
-    right: 10px;
-    text-align: center;
-    line-height: 50px;
-    color: #4A90E2;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(126, 126, 126, 0.8);
+  position: absolute;
+  right: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #4A90E2;
 }
 
 .device-status {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(126, 126, 126, 0.8);
-    position: absolute;
-    right: 20px;
-    top: 430px;
-    text-align: center;
-    line-height: 50px;
-    color: #4A90E2;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(126, 126, 126, 0.8);
+  position: absolute;
+  right: 20px;
+  top: 430px;
+  text-align: center;
+  line-height: 50px;
+  color: #4A90E2;
 }
 
 .td-status {
-    color: red;
+  color: red;
 }
 
 .fasfa-user-circle {
-    color: red;
+  color: red;
 }
 
 .agent-table {
-    margin: 15px;
-    border-right: 8px;
+  margin: 15px;
+  border-right: 8px;
 }
