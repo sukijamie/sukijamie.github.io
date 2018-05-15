@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>智能定位照护系统DEMO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Fontastic Custom icon font-->
+  <link rel="stylesheet" href="css/fontastic.css">
+  <!-- Google fonts - Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Favicon-->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <!-- Side Navbar -->
+  <nav class="side-navbar">
+    <div class="side-navbar-wrapper">
+      <!-- Sidebar Header    -->
+      <div class="sidenav-header">
+        <div class="sidenav-header-inner text-center">
+          <h3>智能定位照护系统</h3>
+        </div>
+      </div>
+      <!-- Sidebar Navigation Menus-->
+      <div class="main-menu">
+        <ul id="side-main-menu" class="side-menu list-unstyled">
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/homepage.png';">
+              <i class="fas fa-home fa-fw"></i>首页</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/hotspot.png';">
+              <i class="fas fa-street-view fa-fw"></i>场域热点分析</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/activity1.png';">
+              <i class="fab fa-connectdevelop fa-fw"></i>住民活动轨迹</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/activity2.png';">
+              <i class="fab fa-connectdevelop fa-fw"></i>住民活动统计</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/rollCall1.png';">
+              <i class="fas fa-clipboard-check fa-fw"></i>活动课程点名</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/rollCall2.png';">
+              <i class="fas fa-clipboard-check fa-fw"></i>出入房点名</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/history.png';">
+              <i class="fas fa-clock fa-fw"></i>历史事件</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/alert1.png';">
+              <i class="fas fa-exclamation-circle fa-fw"></i>电子围篱设定</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/alert2.png';">
+              <i class="fas fa-exclamation-circle fa-fw"></i>警示事件设定</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/visitRecord.png';">
+              <i class="fas fa-clipboard-list fa-fw"></i>访视纪录</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis1.png';">
+              <i class="fas fa-chart-bar fa-fw"></i>行动能力分析</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis2.png';">
+              <i class="fas fa-chart-bar fa-fw"></i>生活交际分析</a>
+          </li>
+          <li>
+            <a href="#" onclick="document.getElementById('display-frame').src = './img/fake/analysis3.png';">
+              <i class="fas fa-chart-bar fa-fw"></i>失智行走预警</a>
+          </li>
+        </ul>
+      </div>
+      <img id="logo-color" class="side-navbar-logo" src="./img/Acare_LOGO_text_color.png">
+      <img id="logo-white" class="side-navbar-logo" src="./img/Acare_LOGO_text_white.png">
+    </div>
+  </nav>
+  <div class="page">
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-holder d-flex align-items-center justify-content-between">
+            <!-- 楼层区域-->
+            <ul class="drop-down-menu">
+
+              <li>
+                <a href="#">第一栋</a>
+                <ul>
+                  <li>
+                    <a href="#">1F</a>
+                  </li>
+                  <li>
+                    <a href="#">2F</a>
+                  </li>
+                  <li>
+                    <a href="#">3F</a>
+                  </li>
+                  <li>
+                    <a href="#">4F</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">第二栋</a>
+              </li>
+
+              <li>
+                <a href="#">第三栋</a>
+                <ul>
+                  <li>
+                    <a href="#">1F</a>
+                    <ul>
+                      <li>
+                        <a href="#">第一区</a>
+                      </li>
+                      <li>
+                        <a href="#">第二区</a>
+                      </li>
+                      <li>
+                        <a href="#">第三区</a>
+                      </li>
+                      <li>
+                        <a href="#">第四区</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="#">第四栋</a>
+              </li>
+
+              <li>
+                <a href="#">第五栋</a>
+              </li>
+
+              <li>
+                <a href="#">第六栋</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!-- 楼层区域-->
+        </div>
+      </nav>
+    </header>
+    <!-- 显示区块-->
+    <!-- <div style="transform-origin:20px 20px; width:80%; height: 80%;"> -->
+    <img id="display-frame" src="./img/fake/homepage.png" style="margin-left: 10px;margin-top: 10px;max-height: 80%; max-width:80%"></img>
+    <!-- </div> -->
+
+
+    <!--
+    <div class="agent-status">人员状态
+      <br>
+      <input class="search" type="text" placeholder="Search" aria-label="Search">
+      <table class="agent-table">
+        <tr>
+          <td>
+            <i class="fas fa-user-circle"></i>何少林</td>
+          <td class="td-status">紧急求救</td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-user-circle"></i>何少林</td>
+          <td class="td-status">紧急求救</td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-user-circle"></i>何少林</td>
+          <td class="td-status">紧急求救</td>
+        </tr>
+
+      </table>
+    </div>
+    <div class="device-status">
+      设备状态
+      <br>
+      <input class="search" type="text" placeholder="Search" aria-label="Search">
+      <table class="agent-table">
+        <tr>
+          <td>
+            <i class="fas fa-cube"></i>设备1</td>
+          <td class="td-status">位置异常</td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-cube"></i>设备2</td>
+          <td class="td-status">位置异常</td>
+        </tr>
+        <tr>
+          <td>
+            <i class="fas fa-cube"></i>基站</td>
+          <td class="td-status">位置异常</td>
+        </tr>
+
+      </table>
+    </div>
+    -->
+
+
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+  </div>
+</body>
+
+</html>
